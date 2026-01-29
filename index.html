@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Глэмпинг в Удмуртии. Аренда уютного дома с сауной и уличным чаном на дровах. Отдых на природе до 6 человек.">
+    <meta name="keywords" content="глэмпинг Удмуртия, аренда дома, аренда дома ижевск">
+    <meta name="robots" content="index, follow">
+    <title>Глэмпинг Лапас | Аренда дома с сауной и чаном в Удмуртии</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header class="header">
+        <div class="container">
+            <h1>Глэмпинг</h1>
+            <p class="subtitle">Уютный отдых в доме с сауной и чаном<br>деревня Русский Вожой, Удмуртия</p>
+            <a href="#booking" class="btn">Забронировать</a>
+        </div>
+    </header>
+
+    <nav class="nav">
+        <div class="container">
+            <ul>
+                <li><a href="#about">О нас</a></li>
+                <li><a href="#gallery">Галерея</a></li>
+                <li><a href="#prices">Цены</a></li>
+                <li><a href="#booking">Бронирование</a></li>
+                <li><a href="#contacts">Контакты</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <section id="about" class="section">
+        <div class="container">
+            <h2>О глэмпинге Лапас</h2>
+            <p>Добро пожаловать в Лапас — идеальное место для спокойного отдыха на природе в Удмуртской Республике. Современный уютный дом для компании до 6 человек с финской сауной внутри и возможностью заказать уличный аромо-чан на дровах.</p>
+            <p>Наслаждайтесь тишиной леса, свежим воздухом и настоящим комфортом вдали от города.</p>
+            <p><strong>Заезд с 15:00, выезд до 12:00 следующего дня.</strong><br>
+            Максимум 6 человек включено в стоимость. Свыше 6 — доплата 500 руб/чел.</p>
+        </div>
+    </section>
+
+    <section id="gallery" class="section gallery-section">
+        <div class="container">
+            <h2>Галерея</h2>
+            <div class="gallery-grid">
+                <img src="img/image1.png" alt="Дом глэмпинга" title="Дом предлагаемый для сдачи">
+                <img src="img/image2.png" alt="Сауна в доме" title="Сауна расположенная внутри дома">
+                <img src="img/image3.png" alt="Дом в лесу Удмуртии" title="Вокруг дома газон и свежая трава">
+                <img src="img/image4.png" alt="Интерьер внутри дома" title="Интерьер внутри дома">
+                <img src="img/image5.png" alt="Уличный чан на дровах" title="Банный чан на улице">
+                <img src="img/image6.png" alt="Дом на природе" title="Придворовая территория дома">
+            </div>
+        </div>
+    </section>
+
+    <section id="prices" class="section prices-section">
+        <div class="container">
+            <h2>Цены</h2>
+            <div class="prices-grid">
+                <div class="price-card">
+                    <h3>Будни</h3>
+                    <p class="price">11 000 ₽<span>/сутки</span></p>
+                </div>
+                <div class="price-card">
+                    <h3>Выходные<br>(пт, сб)</h3>
+                    <p class="price">16 000 ₽<span>/сутки</span></p>
+                </div>
+                <div class="price-card">
+                    <h3>Праздники</h3>
+                    <p class="price">18 000 ₽<span>/сутки</span></p>
+                </div>
+            </div>
+            <p class="additional">Аромо-чан на дровах — <strong>+3 000 ₽</strong><br>
+            Более 6 человек — <strong>+500 ₽/чел</strong></p>
+        </div>
+    </section>
+
+    <section id="booking" class="section booking-section">
+        <div class="container">
+            <h2>Бронирование</h2>
+            <p>Заполните форму — мы свяжемся с вами в ближайшее время</p>
+            <form method="POST">
+                <input type="text" name="name" placeholder="Ваше имя *" required>
+                <input type="tel" name="phone" placeholder="Телефон *" required>
+                <input type="email" name="email" placeholder="Email">
+                <input type="date" name="checkin" required>
+                <input type="date" name="checkout" required>
+                <input type="number" name="people" min="1" max="12" placeholder="Количество человек *" required>
+                <select name="chan">
+                    <option value="no">Без чана</option>
+                    <option value="yes">С аромо-чаном (+3000 ₽)</option>
+                </select>
+                <textarea name="message" rows="5" placeholder="Дополнительные пожелания"></textarea>
+                <button type="submit" class="btn">Отправить заявку</button>
+            </form>
+        </div>
+    </section>
+
+    <section id="contacts" class="section">
+        <div class="container">
+            <h2>Контакты</h2>
+            <p>Телефон: <a href="tel:88005553535">8 (800) 555-35-35</a></p>
+            <p><a href="https://vk.com/lapas" target="_blank" >Группа ВКонтакте</a></p>
+            <p>По всем вопросам пишите в сообщения или звоните — ответим быстро!</p>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2025 Глэмпинг Лапас. Все права защищены.</p><br>
+            <a href="policy.txt" target="_blank">Политика конфиденциальности</a>
+            <a href="okey.txt" target="_blank">Условия соглашения</a>
+        </div>
+    </footer>
+
+    <!-- Лайтбокс -->
+    <div class="lightbox" id="lightbox">
+        <span class="close">&times;</span>
+        <img src="" alt="" id="lightbox-img">
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
