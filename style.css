@@ -15,6 +15,11 @@ body {
     background: #f8f8f8;
 }
 
+.button-container {
+    text-align: center;
+    margin-top: 20px; /* опционально - для отступа сверху */
+}
+
 .container {
     max-width: 1200px;
     margin: 0 auto;
@@ -234,3 +239,4 @@ body {
     }
 
 }
+
