@@ -22,7 +22,7 @@ body {
 }
 
 .header {
-    background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('img/image7.png') center/cover no-repeat;
+    background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('img/image7.webp') center/cover no-repeat;
     height: 100vh;
     min-height: 600px;
     display: flex;
@@ -232,4 +232,5 @@ body {
         display: block;
         padding: 15px;
     }
+
 }
