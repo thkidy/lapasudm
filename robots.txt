@@ -2,4 +2,5 @@ User-agent: *
 Allow: /
 Disallow: /api/
 Disallow: /admin/
-Sitemap: https://lapasudm.vercel.app
+Sitemap: https://lapasudm.vercel.app/sitemap.xml
+
